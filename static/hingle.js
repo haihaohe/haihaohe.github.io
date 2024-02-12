@@ -139,7 +139,7 @@ var Paul_Hingle = function (config) {
     if(config.night){
         var hour = new Date().getHours();
 
-        if(document.cookie.indexOf("night") === -1 && (hour <= 5 || hour >= 22)){
+        if(document.cookie.indexOf("night") === -1 && (hour >= 0)){//修改为一直夜间模式
             document.body.classList.add("dark-theme");
             document.cookie = "night=true;" + "path=/;" + "max-age=21600";
         }
