@@ -61,7 +61,7 @@
         </section>
         <article class="post-content">
         
-            <h2 id="考核重点"><a href="#考核重点" class="headerlink" title="考核重点"></a>考核重点</h2><p><img src="/../images%5Cimage-20230105194154308.png" alt="image-20230105194154308"></p>
+            <h2 id="考核重点"><a href="#考核重点" class="headerlink" title="考核重点"></a>考核重点</h2><p><img src="/../images/image-20230105194154308.png" alt="image-20230105194154308"></p>
 <h1 id="一、基础算法"><a href="#一、基础算法" class="headerlink" title="一、基础算法"></a>一、基础算法</h1><h2 id="1-快速排序"><a href="#1-快速排序" class="headerlink" title="1.快速排序"></a>1.快速排序</h2><p><a target="_blank" rel="noopener" href="https://www.acwing.com/activity/content/problem/content/819/">https://www.acwing.com/activity/content/problem/content/819/</a></p>
 <p>思路：</p>
 <p>1.确定分界点</p>
@@ -134,7 +134,7 @@
 
 <p>应用：逆序对<a target="_blank" rel="noopener" href="https://www.acwing.com/activity/content/problem/content/822/">https://www.acwing.com/activity/content/problem/content/822/</a></p>
 <p>思路：归并时，当左半边的数大于右半边的数时，从该数开始到中点，这些数都是逆序数</p>
-<p><img src="/../images%5Cimage-20230116164012783.png" alt="image-20230116164012783"></p>
+<p><img src="/../images/image-20230116164012783.png" alt="image-20230116164012783"></p>
 <pre><code class="hljs c"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;iostream&gt;</span></span>
 using namespace <span class="hljs-built_in">std</span>;
 <span class="hljs-keyword">typedef</span> <span class="hljs-type">long</span> <span class="hljs-type">long</span> LL;
@@ -200,7 +200,7 @@ LL ans=<span class="hljs-number">0</span>;
 &#125;</code></pre>
 
 <p>作者：yxc<br>链接：<a target="_blank" rel="noopener" href="https://www.acwing.com/blog/content/31/">https://www.acwing.com/blog/content/31/</a><br><strong>重点为check函数的选择</strong></p>
-<p><img src="/../images%5Cimage-20230120150857125.png" alt="image-20230120150857125"></p>
+<p><img src="/../images/image-20230120150857125.png" alt="image-20230120150857125"></p>
 <p>例题：<a target="_blank" rel="noopener" href="https://www.acwing.com/problem/content/description/791/">https://www.acwing.com/problem/content/description/791/</a></p>
 <p>模板2</p>
 <p>不考虑mid是否加1</p>
@@ -257,7 +257,7 @@ using namespace <span class="hljs-built_in">std</span>;
 		<span class="hljs-keyword">if</span>(mid*mid*mid&gt;=n) r=mid;
 		<span class="hljs-keyword">else</span> l=mid;
 	&#125;
-	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%lf\n&quot;</span>,l);<span class="hljs-comment">//double默认保留6位小数 </span>
+	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%lf/n&quot;</span>,l);<span class="hljs-comment">//double默认保留6位小数 </span>
 	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>; 
 &#125;</code></pre>
 
@@ -350,7 +350,7 @@ using namespace <span class="hljs-built_in">std</span>;
 
 
 <h3 id="4-4-高精度除法"><a href="#4-4-高精度除法" class="headerlink" title="4.4 高精度除法"></a>4.4 高精度除法</h3><p><a target="_blank" rel="noopener" href="https://www.acwing.com/activity/content/problem/content/828/">https://www.acwing.com/activity/content/problem/content/828/</a></p>
-<img src="../images\image-20230125221134480.png" alt="image-20230125221134480" style="zoom:50%;" />
+<img src="../images/image-20230125221134480.png" alt="image-20230125221134480" style="zoom:50%;" />
 
 <pre><code class="hljs c"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;iostream&gt;</span></span>
 <span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;vector&gt;</span></span>
@@ -432,7 +432,7 @@ using namespace <span class="hljs-built_in">std</span>;
 	 <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
 &#125;</code></pre>
 
-<h2 id="6-双指针算法"><a href="#6-双指针算法" class="headerlink" title="6.双指针算法"></a>6.双指针算法</h2><p><img src="/../images%5Cimage-20230129121004497.png" alt="image-20230129121004497"></p>
+<h2 id="6-双指针算法"><a href="#6-双指针算法" class="headerlink" title="6.双指针算法"></a>6.双指针算法</h2><p><img src="/../images/image-20230129121004497.png" alt="image-20230129121004497"></p>
 <p><strong>思路</strong>：</p>
 <ol>
 <li>写出暴力写法</li>
@@ -547,7 +547,7 @@ O(n^<span class="hljs-number">2</span>)</code></pre>
 <h3 id="7-2-lowbit-x-返回x的最后一位"><a href="#7-2-lowbit-x-返回x的最后一位" class="headerlink" title="7.2 lowbit(x):返回x的最后一位"></a>7.2 lowbit(x):返回x的最后一位</h3><p>算法：<strong>x&amp;-x   &#x3D;x&amp;(~x+1)</strong></p>
 <p>~为取反符号</p>
 <p>原理：</p>
-<p><img src="/../images%5Cimage-20230130175405303.png" alt="image-20230130175405303"></p>
+<p><img src="/../images/image-20230130175405303.png" alt="image-20230130175405303"></p>
 <p>运用：<strong>求出一个数的二进制表示1的个数</strong></p>
 <p>原理：每次求出最后一个1的位置，用原数减去该数，直到该数为0</p>
 <pre><code class="hljs c++"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;iostream&gt;</span></span>
@@ -577,7 +577,7 @@ O(n^<span class="hljs-number">2</span>)</code></pre>
 &#125;</code></pre>
 
 <h2 id="8-离散化"><a href="#8-离散化" class="headerlink" title="8.离散化"></a>8.离散化</h2><p>离散化的含义：当一个区间很大，且其中的元素较少时，将其中的元素映射到另一个数组中</p>
-<p><img src="/../images%5Cimage-20230131173005177.png" alt="image-20230131173005177"></p>
+<p><img src="/../images/image-20230131173005177.png" alt="image-20230131173005177"></p>
 <p>注：</p>
 <p><strong>unique()</strong>:将数组中所有的元素去重，并且返回去重后元素的尾端点</p>
 <p><strong>return r+1</strong>:映射到1、2、3…</p>
@@ -718,7 +718,7 @@ O(n^<span class="hljs-number">2</span>)</code></pre>
 	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>; 
 &#125;</code></pre>
 
-<h1 id="三、搜索"><a href="#三、搜索" class="headerlink" title="三、搜索"></a>三、搜索</h1><h2 id="1-BFS"><a href="#1-BFS" class="headerlink" title="1.BFS"></a>1.BFS</h2><img src="../images\image-20230321185908798.png" alt="image-20230321185908798" style="zoom:50%;" />
+<h1 id="三、搜索"><a href="#三、搜索" class="headerlink" title="三、搜索"></a>三、搜索</h1><h2 id="1-BFS"><a href="#1-BFS" class="headerlink" title="1.BFS"></a>1.BFS</h2><img src="../images/image-20230321185908798.png" alt="image-20230321185908798" style="zoom:50%;" />
 
 <h2 id="2-DFS"><a href="#2-DFS" class="headerlink" title="2.DFS"></a>2.DFS</h2><p>深度优先搜索，每次探到底再返回</p>
 
