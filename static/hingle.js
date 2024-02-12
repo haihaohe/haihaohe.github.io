@@ -136,21 +136,10 @@ var Paul_Hingle = function (config) {
     window.addEventListener("scroll", this.to_top);
 
     // 如果开启自动夜间模式
-    if(config.night){
-        var hour = new Date().getHours();
+    if(config.night){//修改为一直夜间模式
 
-        if(document.cookie.indexOf("night") === -1 && (hour >= 0)){//修改为一直夜间模式
             document.body.classList.add("dark-theme");
             document.cookie = "night=true;" + "path=/;" + "max-age=21600";
-        }
-    }
-    else if(document.cookie.indexOf("night") !== -1){
-        if(document.cookie.indexOf("night=true") !== -1){
-            document.body.classList.add("dark-theme");
-        }
-        else{
-            document.body.classList.remove("dark-theme");
-        }
     }
 
     // 如果开启复制内容提示
